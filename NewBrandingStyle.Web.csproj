@@ -12,6 +12,7 @@
     <Folder Include="Models\Validation\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\ItemList\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />

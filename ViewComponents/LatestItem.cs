@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Web.Databases;
 
-namespace NewBrandingStyle.Web.ViewComponents
+namespace WebApplication.Web.ViewComponents
 {
     public class LatestItem : ViewComponent
     {

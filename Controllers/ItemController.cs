@@ -13,15 +13,16 @@ namespace WebApplication.Web.Controllers
     {
         public AddNewItemResponseModel Post(ItemModel item)
         {
-            bool userRes = !string.IsNullOrEmpty(item.Description) && !string.IsNullOrEmpty(item.Name);
+            bool _succes = !string.IsNullOrEmpty(item.Description) && !string.IsNullOrEmpty(item.Name);
+            string _message = _succes ? "" : "Fields cannot be empty!";
 
-            var res = new AddNewItemResponseModel
+            var response = new AddNewItemResponseModel
             {
-                success = userRes,
-                message = userRes ? "" : "Input fields cannot be empty"
+                succes = _succes,
+                message = _succes ? "" : _message
             };
-            return res;
+
+            return response;
         }
     }
 }
-

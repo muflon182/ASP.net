@@ -1,34 +1,49 @@
-﻿(function () {
-    const alertElement = document.getElementById("success-alert");
-    const errorAlertElement = document.getElementById("error-alert");
-    const msg = document.getElementById("msg");
-    const form = document.forms[0];
-    const addNewItem = async () => {
-        // 1. read data from the form
-        const requestData = JSON.stringify({ Name: document.getElementById("Name").value, Description: document.getElementById("Description").value, IsVisible: document.getElementById("IsVisible").checked });
-        // 2. call the application server using fetch method
-        const url = "/api/item";
-        const response = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: requestData
+﻿document.forms[0].onsubmit = () => {
+    let formData = new FormData(document.forms[0]);
+    let alertEl = document.getElementById('success-alert');
+    fetch('', {
+        method: 'post',
+        body: new URLSearchParams(formData)
+    })
+        .then(() => {
+            alertEl.style.display = 'flex';
         });
-        const responseJson = await response.json();
-        if (responseJson.success) {
-            alertElement.style.display = "";
-        } else {
-            errorAlertElement.style.display = "";
-            msg.innerText = responseJson.message;
-        }
-    };
-    window.addEventListener("load", () => {
-        form.addEventListener("submit", event => {
-            event.preventDefault();
-            alertElement.style.display = "none";
-            errorAlertElement.style.display = "none";
-            addNewItem().then(() => console.log("added successfully"));
-        });
-    });
-})();
+    return false;
+};
+
+//(function () {
+//    const alertEl = document.getElementById("success-alert");
+//    const form = document.forms[0];
+
+//    const addNewItem = async () => {
+//        const formData = new FormData(form);
+//        const requestData = {
+//            Name: formData.get("Name"),
+//            Description: formData.get("Description"),
+//            IsVisible: formData.get("IsVisible") === "true" ? true : false,
+//        };
+
+//        alertEl.style.display = "none";
+
+//        const response = await fetch('', {
+//            method: "POST",
+//            headers: {
+//                'Content-Type': 'application/json'
+//            },
+//            body: JSON.stringify(requestData),
+//        });
+
+//        const responseJSON = await response.json();
+
+//        if (responseJSON.success) {
+//            alertEl.style.display = "flex";
+//        }
+//    };
+
+//    window.addEventListener("load", () => {
+//        form.addEventListener("submit", event => {
+//            event.preventDefault();
+//            addNewItem().then(() => console.log("added successfuly"))
+//        });
+//    });
+//})();
