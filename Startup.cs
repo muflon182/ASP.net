@@ -5,6 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using WebApplication.Web.Databases;
+using WebApplication.Web.Filters;
+using FluentValidation.AspNetCore;
+
 
 namespace WebApplication.Web
 {
@@ -21,6 +24,11 @@ namespace WebApplication.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddControllersWithViews(config =>
+            {
+                config.Filters.Add<MyCustomFilter>();
+            }).AddFluentValidation();
+
 
             services.AddDbContext<ExchangesDbContext>(options => options
                 .UseSqlite(Configuration.GetConnectionString("ExchangeThings")));

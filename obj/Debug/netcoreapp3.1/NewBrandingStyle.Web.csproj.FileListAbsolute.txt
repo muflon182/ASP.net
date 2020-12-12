@@ -93,8 +93,6 @@ C:/Users/user/source/repos/WebApplication.Web/WebApplication.Web/obj/Debug/netco
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/NewBrandingStyle.Web.TagHelpers.input.cache
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/NewBrandingStyle.Web.TagHelpers.output.cache
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/NewBrandingStyle.Web.RazorCoreGenerate.cache
-/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Company/CompanyAdded.cshtml.g.cs
-/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Company/Index.cshtml.g.cs
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
@@ -138,3 +136,11 @@ C:/Users/user/source/repos/WebApplication.Web/WebApplication.Web/obj/Debug/netco
 /Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
 /Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/NewBrandingStyle.Web.MvcApplicationPartsAssemblyInfo.cs
+/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/ItemAdd/Add.cshtml.g.cs
+/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/ItemAdd/AddConfirmation.cshtml.g.cs
+/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/ItemAdd/Show.cshtml.g.cs
+/Users/mateuszmazur/Projects/ASP.net/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Index.cshtml.g.cs
+/Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/Users/mateuszmazur/Projects/ASP.net/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll

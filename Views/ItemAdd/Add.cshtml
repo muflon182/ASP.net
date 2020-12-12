@@ -1,0 +1,61 @@
+﻿@model ItemModel
+
+<h1>Items managment</h1>
+
+<h2>Add new item</h2>
+
+<div id="success-alert" class="alert alert-success" style="display: none">New item added successfully!</div>
+
+@*Building page using Razor HTML*@
+@*@using (Html.BeginForm())
+    {
+        <div class="form-group">
+            @Html.LabelFor(x => x.Name, "Company name")
+            @Html.TextBoxFor(x => x.Name, new { @class = "from-control"})
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Description, "description")
+            @Html.TextBoxFor(x => x.Description, new { @class = "from-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.CheckBoxFor(x => x.IsVisible, new { @class = "form-check-input"})
+            @Html.LabelFor(x => x.IsVisible, "Visible?", new { @class = "form-check-label"})
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Add company</button>
+        </div>
+    }*@
+
+<form method="post" class="col-sm-6">
+    <div class="form-group row">
+        <label asp-for="Name" class="col-sm-3 col-form-label"></label>
+        <div class="col-sm-7">
+            <input asp-for="Name" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Description" class="col-sm-3 col-form-label"></label>
+        <div class="col-sm-7">
+            <input asp-for="Description" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="IsVisible" class="col-sm-3 col-form-label"></label>
+        <div class="col-sm-7">
+            <input asp-for="IsVisible" class="form-control">
+        </div>
+    </div>
+    <div class="form-group row">
+
+        <div class="col-sm-7 offset-sm-3">
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
+    </div>
+</form>
+
+@*@section scripts{
+        <script src="~/js/addNewItem.js"></script>
+    }*@

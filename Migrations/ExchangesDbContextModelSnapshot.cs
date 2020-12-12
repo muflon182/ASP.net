@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApplication.Web.Databases;
 
-namespace NewBrandingStyle.Web.Migrations
+namespace WebApplication.Web.Migrations
 {
     [DbContext(typeof(ExchangesDbContext))]
     partial class ExchangesDbContextModelSnapshot : ModelSnapshot

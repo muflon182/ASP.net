@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IAyJjR1BV7oo3TFYLpJjL+2KpMNAVXtWyU4HS8VHXmdfP0NG9//yjidxxeMZHJ/r++cEHunWSPXoMj4bjxjk0A==",
+  "dgSpecHash": "hiKH58PlPkjwsSkcyjqbdYHmN6Jcw5ykeRP0JRZ2x5Li2szjoSaABXqCFP2h4vFsVYOIqNm197VHY1+xyMOBRA==",
   "success": true,
   "projectFilePath": "/Users/mateuszmazur/Projects/ASP.net/NewBrandingStyle.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/mateuszmazur/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
+    "/Users/mateuszmazur/.nuget/packages/fluentvalidation.aspnetcore/9.3.0/fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "/Users/mateuszmazur/.nuget/packages/fluentvalidation.dependencyinjectionextensions/9.3.0/fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "/Users/mateuszmazur/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/Users/mateuszmazur/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/mateuszmazur/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

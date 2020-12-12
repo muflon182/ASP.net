@@ -14,6 +14,7 @@ namespace WebApplication.Web.Controllers
         public AddNewItemResponseModel Post(ItemModel item)
         {
             bool userRes = !string.IsNullOrEmpty(item.Description) && !string.IsNullOrEmpty(item.Name);
+
             var res = new AddNewItemResponseModel
             {
                 success = userRes,
