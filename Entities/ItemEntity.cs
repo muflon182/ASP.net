@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApplication.Web.Entities
+namespace NewBrandingStyle.Web.Entities
 {
     public class ItemEntity
     {

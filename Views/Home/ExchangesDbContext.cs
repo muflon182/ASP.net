@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using WebApplication.Web.Entities;
+using NewBrandingStyle.Web.Entities;
 
-namespace WebApplication.Web.Databases
+namespace NewBrandingStyle.Web.Databases
 {
     public class ExchangesDbContext : DbContext
     {

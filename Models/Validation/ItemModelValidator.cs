@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-namespace WebApplication.Web.Models.Validation
+namespace NewBrandingStyle.Web.Models.Validation
 {
     public class ItemModelValidator : AbstractValidator<ItemModel>
     {

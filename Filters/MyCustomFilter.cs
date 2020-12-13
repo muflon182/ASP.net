@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace WebApplication.Web.Filters
+namespace NewBrandingStyle.Web.Filters
 {
     public class MyCustomFilter : IActionFilter
     {

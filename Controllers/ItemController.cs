@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication.Web.Models;
+using NewBrandingStyle.Web.Models;
 
-namespace WebApplication.Web.Controllers
+namespace NewBrandingStyle.Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

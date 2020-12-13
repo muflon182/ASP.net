@@ -21,13 +21,13 @@ using WebApplication.Web;
 #nullable disable
 #nullable restore
 #line 2 "/Users/mateuszmazur/Projects/ASP.net/Views/_ViewImports.cshtml"
-using WebApplication.Web.Models;
+using NewBrandingStyle.Web.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05884817f5d9460b058b2db021b6f2a9877db157", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9decf0935653cf096ff67b9b11c3de1e50d4120", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7be95d6a1399831ab2c6849b8e0e6cd2947a1ed2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

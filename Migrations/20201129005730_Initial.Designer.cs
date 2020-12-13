@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApplication.Web.Databases;
+using NewBrandingStyle.Web.Databases;
 
 namespace NewBrandingStyle.Web.Migrations
 {

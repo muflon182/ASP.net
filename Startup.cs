@@ -4,12 +4,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using WebApplication.Web.Databases;
-using WebApplication.Web.Filters;
+using NewBrandingStyle.Web.Databases;
+using NewBrandingStyle.Web.Filters;
 using FluentValidation.AspNetCore;
 
 
-namespace WebApplication.Web
+namespace NewBrandingStyle.Web
 {
     public class Startup
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication.Web.Models;
-using WebApplication.Web.Filters;
-using WebApplication.Web.Databases;
-using WebApplication.Web.Entities;
+using NewBrandingStyle.Web.Models;
+using NewBrandingStyle.Web.Filters;
+using NewBrandingStyle.Web.Databases;
+using NewBrandingStyle.Web.Entities;
 using System.Threading.Tasks;
 
-namespace WebApplication.Web.Controllers
+namespace NewBrandingStyle.Web.Controllers
 {
     public class ExchangesController : Controller
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication.Web.Databases;
+using NewBrandingStyle.Web.Databases;
 
-namespace WebApplication.Web.ViewComponents
+namespace NewBrandingStyle.Web.ViewComponents
 {
     public class LatestItem : ViewComponent
     {

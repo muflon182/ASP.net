@@ -1,28 +1,59 @@
 ﻿<Properties StartupConfiguration="{87563AC9-2CEB-483C-B1B8-8B7E48AA848D}|WebApplication.Web">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Validation/ItemModelValidator.cs">
     <Files>
-      <File FileName="Entities/ProductEntity.cs" Line="1" Column="1" />
+      <File FileName="Entities/ProductEntity.cs" Line="13" Column="2" />
       <File FileName="Controllers/ItemController.cs" Line="28" Column="2" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Controllers/ItemAddController.cs" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="28" Column="1" />
+      <File FileName="Models/ItemModel.cs" Line="1" Column="1" />
+      <File FileName="Entities/ItemEntity.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20201129005730_Initial.Designer.cs" Line="14" Column="44" />
+      <File FileName="Migrations/20201129005730_Initial.cs" Line="1" Column="1" />
+      <File FileName="Migrations/ExchangesDbContextModelSnapshot.cs" Line="5" Column="23" />
+      <File FileName="obj/Debug/netcoreapp3.1/NewBrandingStyle.Web.AssemblyInfo.cs" Line="14" Column="56" />
+      <File FileName="Controllers/HomeController.cs" Line="14" Column="7" />
+      <File FileName="Database/ExchangesDbContext.cs" Line="22" Column="2" />
+      <File FileName="Models/AddNewItemConfirmation.cs" Line="6" Column="13" />
+      <File FileName="Views/_ViewImports.cshtml" Line="4" Column="26" />
+      <File FileName="Views/Shared/Components/ItemList/Index.cshtml" Line="5" Column="22" />
+      <File FileName="Filters/MyCustomFilter.cs" Line="1" Column="1" />
+      <File FileName="Models/AddNewItemResponseModel.cs" Line="1" Column="1" />
+      <File FileName="Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Views/ItemAdd/Add.cshtml" Line="1" Column="1" />
+      <File FileName="Views/ItemAdd/AddConfirmation.cshtml" Line="1" Column="1" />
+      <File FileName="Views/ItemAdd/Show.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="62" Column="2" />
+      <File FileName="wwwroot/js/addNewItem.js" Line="1" Column="1" />
+      <File FileName="wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Models/Validation/ItemModelValidator.cs" Line="1" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NewBrandingStyle.Web" expanded="True">
             <Node name="NewBrandingStyle.Web" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ItemController.cs" selected="True" />
-              </Node>
-              <Node name="Database" expanded="True" />
-              <Node name="Entities" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Filters" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Validation" expanded="True">
+                  <Node name="ItemModelValidator.cs" selected="True" />
+                </Node>
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="ItemAdd" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True" />
+                </Node>
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
